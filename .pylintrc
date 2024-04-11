@@ -20,7 +20,7 @@ disable=W0511, # TODO/FIXME
         R0401, # cyclic import
 
 [INDENTATION]
-indent-string='  '
+indent-string='    '
 
 [MASTER]
 good-names-rgxs=^[_a-zA-Z][_a-z0-9]?$ # whitelist short variables
