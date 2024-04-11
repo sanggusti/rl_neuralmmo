@@ -20,4 +20,4 @@ jobs:
     - name: Running unit tests
       run: pytest
     - name: Analysing the code with pylint
-      run: pylint .
+      run: pylint --recursive=y tests
